@@ -96,6 +96,9 @@ df_arima <- tibble(Actual = test %>% as.vector(),
 # Model Performance: 
 df_arima %>% knitr::kable()
 
+#======================================================
+#  BUGS and Linear model Time Series
+#======================================================
 
 out.yp[,1]
 df_bugs <- tibble(Actual = test %>% as.vector(), 
